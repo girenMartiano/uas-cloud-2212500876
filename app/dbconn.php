@@ -1,8 +1,8 @@
 <?php
-$servername = "mysql-test"; //or you could use hostname (service name if using docker-compose)
+$servername = "db"; //or you could use hostname (service name if using docker-compose)
 $username = "root";
-$password = "P@ssw0rd";
-$dbname = "testdb";
+$password = "rootpassword";
+$dbname = "uascloud";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
